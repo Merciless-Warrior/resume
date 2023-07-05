@@ -146,3 +146,19 @@ body {
     padding-top: 10px;
     color: #fff;
 }
+
+@media screen and (max-width: 500px) {
+    body{
+        width: 500px
+    }
+    .infoProect-text {
+        width: 300px;
+        font-size: 14px;
+        color: #ffe8e8;
+        padding-left: 200px;
+        padding-right: 100px;  
+        position: relative;  
+        margin-top: 20px;
+    
+      }
+}
